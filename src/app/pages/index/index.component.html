@@ -1,0 +1,15 @@
+<h2>Validador y formateador de rut</h2>
+
+<br />
+<label for="">Rut: </label>
+<input
+  autofocus
+  [(ngModel)]="rutInput"
+  type="text"
+  (input)="validateRut()"
+  placeholder="xx.xxx.xxx-x"
+  maxlength="12"
+/>
+<br />
+<br />
+<label for="">{{ rutInput }}</label>
