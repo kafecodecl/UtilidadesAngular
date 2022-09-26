@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './router/router.module';
-import { IndexComponent } from './pages/index/index.component';
+import { ValidaRutComponent } from './pages/validarut/validarut.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule],
-  declarations: [AppComponent, IndexComponent],
+  declarations: [AppComponent, ValidaRutComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

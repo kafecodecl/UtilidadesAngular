@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { IndexComponent } from '../pages/index/index.component';
+import { ValidaRutComponent } from '../pages/validarut/validarut.component';
 
 const routes: Routes = [
   {
-    path: 'index',
-    component: IndexComponent,
+    path: '',
+    redirectTo: 'validarut',
+    pathMatch: 'full',
+  },
+  {
+    path: 'validarut',
+    component: ValidaRutComponent,
   },
 ];
 @NgModule({

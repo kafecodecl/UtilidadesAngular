@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-index',
-  templateUrl: './index.component.html',
-  styleUrls: ['./index.component.css'],
+  selector: 'app-validarut',
+  templateUrl: './validarut.component.html',
+  styleUrls: ['./validarut.component.css'],
 })
-export class IndexComponent implements OnInit {
+export class ValidaRutComponent implements OnInit {
   rutInput: any = '';
 
   constructor() {}
